@@ -1,0 +1,64 @@
+﻿
+-	controllo share
+
+- 	controllo in sysvol e gpo (script e password)
+
+-	disabilitazione guest e task schedulati
+
+-	Do not allow storage of passwords and credentials for network authentication
+	$networkaccess = Get-ItemProperty -Path "Registry::HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa\" -Name disabledomaincreds -ErrorAction SilentlyContinue|Select-Object -ExpandProperty disabledomaincreds
+
+-	controllo AdminSDHolder
+
+-	rotazione krbtgt 2 volte - golden ticket
+
+-	block kerberos relay attacks    OK CREATO
+
+	Get-ADObject -Identity ((Get-ADDomain).distinguishedname) -Properties 'ms-DS-MachineAccountQuota'
+	Get-ADDomain | Get-ADObject -Properties 'ms-DS-MachineAccountQuota'
+	Set-ADDomain -Identity <DomainName> -Replace @{"ms-DS-MachineAccountQuota"="0"}
+
+-	verifica file di sistema windows    ok
+
+-	calcola hash systemroot e verifica (applicabile?)
+
+-	enumerazione patch mancanti e installazione remota
+
+-	verifica exploit printernightmare  sam nightmare  rogue ejuicy potato  ms17 eternal blue zerologon
+
+-	verifica null session
+
+-	flag trasferimento zona solo da server autorevoli
+
+-	patch rdp
+
+-	controllo guest account
+
+- 	verifica unquoted path
+
+-	verifica privilegi utenti admin, spn, pre-auth kerberos
+	SeImpersonate and SeAssignPrimaryToken
+	SeDebugPrivilege
+	SeTakeOwnershipPrivilege
+
+-	verifica smb version
+
+-	verifica registro voci run
+
+-	verifica chiave registro AlwaysInstallElevated 
+
+-	rimozione info note su account ldap
+
+-	flag di reimpostazione password utenti / password complesse e abilitazione gpo complessità (applicabile?)
+
+-	verifica netstat
+
+-	set powershell all signed 
+
+-	gpo abilita full audit   
+
+-	controllo SID history
+
+- 	controllo dll con process explorer per hijacking
+
+
