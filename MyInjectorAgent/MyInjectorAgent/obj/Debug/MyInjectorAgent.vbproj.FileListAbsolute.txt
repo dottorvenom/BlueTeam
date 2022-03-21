@@ -1,0 +1,16 @@
+C:\Users\Dino\Desktop\MyInjectorAgent\MyInjectorAgent\bin\Debug\MyInjectorAgent.exe.config
+C:\Users\Dino\Desktop\MyInjectorAgent\MyInjectorAgent\bin\Debug\MyInjectorAgent.exe
+C:\Users\Dino\Desktop\MyInjectorAgent\MyInjectorAgent\bin\Debug\MyInjectorAgent.pdb
+C:\Users\Dino\Desktop\MyInjectorAgent\MyInjectorAgent\bin\Debug\MyInjectorAgent.xml
+C:\Users\Dino\Desktop\MyInjectorAgent\MyInjectorAgent\bin\Debug\Renci.SshNet.dll
+C:\Users\Dino\Desktop\MyInjectorAgent\MyInjectorAgent\bin\Debug\Renci.SshNet.xml
+C:\Users\Dino\Desktop\MyInjectorAgent\MyInjectorAgent\obj\Debug\MyInjectorAgent.vbproj.AssemblyReference.cache
+C:\Users\Dino\Desktop\MyInjectorAgent\MyInjectorAgent\obj\Debug\MyInjectorAgent.vbproj.SuggestedBindingRedirects.cache
+C:\Users\Dino\Desktop\MyInjectorAgent\MyInjectorAgent\obj\Debug\MyInjectorAgent.Form1.resources
+C:\Users\Dino\Desktop\MyInjectorAgent\MyInjectorAgent\obj\Debug\MyInjectorAgent.Resources.resources
+C:\Users\Dino\Desktop\MyInjectorAgent\MyInjectorAgent\obj\Debug\MyInjectorAgent.vbproj.GenerateResource.cache
+C:\Users\Dino\Desktop\MyInjectorAgent\MyInjectorAgent\obj\Debug\MyInjectorAgent.vbproj.CoreCompileInputs.cache
+C:\Users\Dino\Desktop\MyInjectorAgent\MyInjectorAgent\obj\Debug\MyInjectorAgent.vbproj.CopyComplete
+C:\Users\Dino\Desktop\MyInjectorAgent\MyInjectorAgent\obj\Debug\MyInjectorAgent.exe
+C:\Users\Dino\Desktop\MyInjectorAgent\MyInjectorAgent\obj\Debug\MyInjectorAgent.xml
+C:\Users\Dino\Desktop\MyInjectorAgent\MyInjectorAgent\obj\Debug\MyInjectorAgent.pdb
