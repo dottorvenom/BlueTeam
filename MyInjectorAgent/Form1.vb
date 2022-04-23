@@ -18,7 +18,7 @@ Public Class Form1
 
         inizializza_dg()
 
-        TextBox2.Text = "C:\Users\Dino\Desktop\ScambioVM\Salt-Minion-3004-Py3-AMD64-Setup.exe"
+        TextBox2.Text = "C:\Users\Venom\Desktop\Salt-Minion-3004-Py3-AMD64-Setup.exe"
 
     End Sub
 

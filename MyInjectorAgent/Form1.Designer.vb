@@ -26,10 +26,12 @@ Partial Class Form1
         Me.Button1 = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.Label5 = New System.Windows.Forms.Label()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
@@ -43,8 +45,6 @@ Partial Class Form1
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.Button11 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
@@ -91,6 +91,15 @@ Partial Class Form1
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Logs"
         '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(22, 412)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(48, 16)
+        Me.Label5.TabIndex = 2
+        Me.Label5.Text = "Label5"
+        '
         'Button5
         '
         Me.Button5.Location = New System.Drawing.Point(641, 409)
@@ -124,6 +133,16 @@ Partial Class Form1
         Me.GroupBox3.TabIndex = 4
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Salt Windows"
+        '
+        'CheckBox1
+        '
+        Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.Location = New System.Drawing.Point(14, 74)
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.Size = New System.Drawing.Size(222, 20)
+        Me.CheckBox1.TabIndex = 9
+        Me.CheckBox1.Text = "Change Remote User Password"
+        Me.CheckBox1.UseVisualStyleBackColor = True
         '
         'Label3
         '
@@ -234,7 +253,7 @@ Partial Class Form1
         Me.Button11.Name = "Button11"
         Me.Button11.Size = New System.Drawing.Size(226, 79)
         Me.Button11.TabIndex = 7
-        Me.Button11.Text = "VINCI LOCKED SHIELD 2022!!!!"
+        Me.Button11.Text = "Go!!!"
         Me.Button11.UseVisualStyleBackColor = True
         '
         'Button2
@@ -245,25 +264,6 @@ Partial Class Form1
         Me.Button2.TabIndex = 8
         Me.Button2.Text = "Controlla SALT"
         Me.Button2.UseVisualStyleBackColor = True
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(22, 412)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(48, 16)
-        Me.Label5.TabIndex = 2
-        Me.Label5.Text = "Label5"
-        '
-        'CheckBox1
-        '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(14, 74)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(278, 25)
-        Me.CheckBox1.TabIndex = 9
-        Me.CheckBox1.Text = "Change Remote User Password"
-        Me.CheckBox1.UseVisualStyleBackColor = True
         '
         'Form1
         '
